@@ -14,6 +14,7 @@ RUN useradd -ms /bin/bash bower
 RUN npm install -g bower
 
 USER bower
+RUN chown -R $USER:$GROUP /usr/src/app/node_modules
 RUN bower install
 
 ARG maasUrl
