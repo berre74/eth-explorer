@@ -13,6 +13,7 @@ COPY . .
 RUN npm install -g http-server
 
 RUN useradd -ms /bin/bash bower
+USER root
 RUN npm install -g bower
 
 USER bower
