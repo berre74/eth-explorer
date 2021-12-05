@@ -28,4 +28,4 @@ ENV explorerIP=${explorerIP}
 EXPOSE 4201
 
 USER root
-CMD [ "http-server", "./app", "-a", "localhost", "-p", "4201", "-c-1" ]
+CMD [ "http-server", "./app", "-a", "${explorerIP}", "-p", "4201", "-c-1" ]
