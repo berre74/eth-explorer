@@ -1,7 +1,7 @@
 {
   "name": "EthereumExplorer",
   "private": false,
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "A lightweight ethereum block explorer",
   "repository": "https://github.com/etherparty/explorer",
   "license": "MIT",
